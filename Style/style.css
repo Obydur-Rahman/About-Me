@@ -1,0 +1,105 @@
+/* About me Css  */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.primary-btn{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0px;
+    width: 160px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ---------------------------------------------------------------- */
+
+
+/* Header And banner */
+header{
+    background: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.banner{
+    width: 525px;
+    padding-right: 230px;
+    text-align: right;
+}
+.header-title{
+    color: var(--Dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-description{
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* My Failures Section Style */
+
+.My-failures{
+   display: flex;
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   gap: 87px;
+   padding-top: 130px;
+   padding-bottom: 130px;
+   
+}
+
+.person-img{
+
+    width: 569px;
+    height: 666.5px;
+
+}
+
+
+ .my-failures-contain h1{
+    width: 288px;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+
+ }
+
+.my-failures-contain p{
+    width: 416px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.my-failures-contain ul{
+  list-style: none;
+} 
+
+.my-failures-contain ul li{
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.my-failures-contain ul li i{
+    color: rgb(4, 229, 4);
+}
+/* ------------------------------------------------------------------- */
