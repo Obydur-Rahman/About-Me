@@ -16,6 +16,17 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.secondary-btn{
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 36px;
+    border: 0px;
+
+}
 /* ---------------------------------------------------------------- */
 
 
@@ -103,3 +114,129 @@ header{
     color: rgb(4, 229, 4);
 }
 /* ------------------------------------------------------------------- */
+
+
+
+
+/* My Plans Section Style */
+
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.plan-title{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-container{
+    display: flex;
+    justify-content:center;
+    gap: 99px;
+    padding-top:50px ;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.my-plans img{
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.my-plans h3{
+    color: var(--Dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 16px;
+} 
+
+.my-plans p{
+    color: var(--Dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+/* ----------------------------------------------------------------- */
+
+
+/* ads Section Style */
+
+
+.ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    
+}
+
+.watch{
+    background-image:url('../images/gradient2.png') ,url('../images/watch.png')  ;
+    background-repeat: no-repeat;
+    padding: 59px 617px 59px 64px;   
+    border-radius: 10px;
+}
+.watch h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    padding-bottom: 24px;
+}
+/* --------------------------------------------------------------------- */
+
+/* footer Style */
+
+footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 200px;
+   padding: 130px 230px;
+   background: var(--Dark-01, #151414);
+   
+}
+.Future{
+    text-align: left;
+}
+.Future h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+} 
+.Future p{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    text-decoration: none;
+}
+
+.Subscribe h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.Subscribe input{
+    background: var(--Dark-01, #151414);
+    padding: 0px 22px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 300px;
+    height: 60px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
